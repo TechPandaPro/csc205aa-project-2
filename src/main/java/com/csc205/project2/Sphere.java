@@ -30,36 +30,28 @@ public class Sphere extends Shape {
      *
      * @return the radius of the sphere
      */
-    public double getRadius() {
-        return radius;
-    }
+    public double getRadius() { return radius; }
 
     /**
      * Sets the radius of the sphere.
      *
      * @param radius the new radius of the sphere
      */
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
+    public void setRadius(double radius) { this.radius = radius; }
 
     /**
      * Computes the surface area of the sphere.
      *
      * @return the surface area of the sphere
      */
-    public double surfaceArea() {
-        return 4.0 * Math.PI * Math.pow(radius, 2);
-    }
+    public double surfaceArea() { return 4.0 * Math.PI * Math.pow(radius, 2); }
 
     /**
      * Computes the volume of the sphere.
      *
      * @return the volume of the sphere
      */
-    public double volume() {
-        return (4.0/3.0) * Math.PI * Math.pow(radius, 3);
-    }
+    public double volume() { return (4.0/3.0) * Math.PI * Math.pow(radius, 3); }
 
     /**
      * Gives a simple String representation of
